@@ -1,10 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}
-
-body{
+    box-sizing: border-box;   /* == This property includes padding and border in the element's total width and height */
+  }
+  
+  body {
     height: 100vh;
     background: #161513;
     color: white;
-}
+    font-family: Arial, sans-serif;
+  }
