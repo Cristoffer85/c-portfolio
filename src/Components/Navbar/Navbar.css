@@ -4,21 +4,46 @@
     justify-content: space-between;
     padding: 10px 20px;
     margin: 20px 50px;
-  }
+}
+
+.nav-logo {
+    height: 50px;   
+    margin-right: 20px;
+}
   
-  .nav-menu {
+.nav-menu {
     display: flex;
     align-items: center;
     list-style: none;
     gap: 40px;
     font-size: 18px;
-  }
-
-/* RESPONSIVE - Medium-sized screens */
+}
+  
+.nav-connect {
+    padding: 15px 30px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #da7c25 0.36%, #B923E1 102.06%);
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;           /* == This property makes the transition smoother */
+    margin-left: 20px;
+}
+  
+.nav-connect:hover {
+    transform: scale(1.05);     /* == This property increases the size of the button when hovered */
+}
+  
+/* ------------------------ RESPONSIVENESS ------------------------ */
+  /* MEDIUM-sized screens */
   @media (max-width: 768px) {
     .navbar {
       margin: 10px 20px;
       flex-direction: column;
+    }
+  
+    .nav-logo {
+      margin-right: 0;
+      margin-bottom: 10px;
     }
     
     .nav-menu {
@@ -26,18 +51,36 @@
       gap: 20px;
       font-size: 16px;
     }
-  }
   
-/* RESPONSIVE - Mobile-sized screens */
+    .nav-connect {
+      margin-left: 0;
+      margin-top: 15px;
+      padding: 12px 25px;
+      font-size: 18px;
+    }
+  }
+  /* MOBILE-sized screens */ 
   @media (max-width: 480px) {
     .navbar {
       padding: 5px 10px;
       margin: 10px 15px;
     }
-    
+  
+    .nav-logo {
+      height: 40px;
+      margin-bottom: 10px;
+    }
+  
     .nav-menu {
       font-size: 14px;
       gap: 15px;
+    }
+  
+    .nav-connect {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-top: 10px;
+      text-align: center;
     }
   }
   
