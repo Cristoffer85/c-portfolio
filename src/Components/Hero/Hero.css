@@ -5,20 +5,59 @@
     gap: 35px;
 }
 
+/* ------------- img styling ------------- */
 .hero img{
     margin-top: 150px;
 }
 
+/* ------------- Header h1 styling ------------- */
 .hero h1{
     text-align: center;
     width: 70%;
     font-size: 90px;
     font-weight:600;
 }
-
 .hero h1 span{
-    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background: linear-gradient(270deg, #1044d4 10%, #e6dc50 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+/* ------------- <p> styling ------------- */
+.hero p{
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+/* ------------- Hero Action buttons ------------- */
+.hero-action{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.hero-connect{
+    padding: 25px 45px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #e6dc50 0.36%, #1044d4 102.06%);
+    cursor: pointer;
+}
+.hero-connect:hover{
+    border: 2px solid white;
+}
+
+.hero-resume{
+    padding: 25px 75px;
+    border-radius: 50px;
+    border: 2px solid #FFF;
+    cursor: pointer;
+}
+.hero-resume:hover{
+    border-color: #1044d4;
 }
