@@ -27,7 +27,7 @@ const Services_Data = [
     {
         s_no:"06",
         s_name:"Be a real good pal!",
-        s_desc:"Or if you just want a real good friend here you got me! Connect with me or hit me up on ByteBook! (Link in Footer) The only requirement is that you become my good pal too."
+        s_desc:"Or if you just want a real good friend here you got me! Connect with me or hit me up on ByteBook! The only requirement is that you become my good pal too."
     },
 ]
  

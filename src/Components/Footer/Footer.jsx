@@ -1,7 +1,8 @@
 import React from 'react'
 import './Footer.css'
-import footer_logo from '../../assets/footer_logo.svg'
-import user_icon from '../../assets/user_icon.svg'
+import footer_logo from '../../assets/footer_logo.png'
+//import user_icon from '../../assets/user_icon.svg'
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Footer = () => {
   return (
@@ -29,8 +30,13 @@ const Footer = () => {
         <div className="footer-bottom">
             <p className="footer-bottom-left">© Cristoffer Östberg 2024. All rights reserved.</p>
             <div className="footer-bottom-right">
-                <p>Terms of Service</p>
-                <p>Privacy Policy</p>
+              {/* 
+              <p>Terms of Service</p>
+              <p>Privacy Policy</p>
+              */}
+              <AnchorLink className='anchor-link' offset={50} href='#contact'>
+                <p>Connect with me</p>
+              </AnchorLink>
             </div>
         </div>
     </div>
