@@ -7,6 +7,7 @@
     margin: 80px 170px;
 }
 
+/* ------------------ CONTACT TITLE ------------------ */
 .contact-title{
     position: relative;
 }
@@ -26,7 +27,7 @@
     display: flex;
     gap: 150px;
 }
-
+/* ------------------ CONTACT LEFT ------------------ */
 .contact-left{
     display: flex;
     flex-direction: column;
@@ -35,7 +36,7 @@
 .contact-left h1{
     font-size: 80px;
     font-weight: 700;
-    background: linear-gradient(270deg, #e6dc50 80%, #1044d4 100%);
+    background: #275ef7;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -47,6 +48,7 @@
     line-height: 35px;
 }
 
+/* ------------------ CONTACT RIGHT ------------------ */
 .contact-right{
     display: flex;
     flex-direction: column;
@@ -58,7 +60,29 @@
     font-size: 22px;
     font-weight: 500;
 }
+.contact-right input{
+    border: none;
+    width: 700px;
+    height: 78px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #A0A0A0;
+    font-family: Outfit;
+    font-size: 20px;
+}
+.contact-right textarea{
+    border: none;
+    width: 650px;
+    padding: 25px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #A0A0A0;
+    font-family: Outfit;
+    font-size: 20px;
+}
 
+/* ------------------ CONTACT DETAILS ------------------ */
 .contact-details{
     display: flex;
     flex-direction: column;
@@ -70,6 +94,23 @@
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+/* ------------------ CONTACT SUBMIT BUTTON ------------------ */
+.contact-submit{
+    border: none;
+    color: white;
+    border-radius: 50px;
+    background: #275ef7;
+    font-size: 22px;
+    padding: 20px 60px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contact-submit:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 
 

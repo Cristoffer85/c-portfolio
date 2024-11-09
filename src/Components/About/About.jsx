@@ -18,8 +18,8 @@ const About = () => {
             <div className="about-para">
                 <p>I am a junior backend developer with up to a year work experience where mostly Java, C# and Python have been used.</p>
                 <p>My degree certificate is in Java where i was a very dedicated student and received among the highest degrees in class. I´ve created several projects both for school and work but also private where languages include Java, C#(.NET), Python, C++ and React (Javascript + Typescript)</p>
-                <p>The education programmes major was integration, where i picked up and learned alot about API:s, Databases, Microservices, Agile teamstructure and logic in general.</p>
-                <p>I love to bring scalability and efficiency (and design with just a little UX as well) to applications and bring my best to every project.</p>
+                <p>The education programmes major was integration, where i picked up and learned alot about API:s, Databases, Microservices, Agile teamstructure and logic in general. I love to bring scalability and efficiency (and design with just a little UX as well) to applications and bring my best to every project.</p>
+                <p>Have 7+ years of consultancy experience, and come from a background regarding Pedagogy, Logistics and Security.</p>
             </div>
             <div className="about-skills">
                 <div className="about-skill"><p>Java</p><hr style={{width:"90%"}}/></div>
@@ -33,8 +33,9 @@ const About = () => {
         </div>
         <div className="about-achievements">
             <div className="about-achievement">
-                <h1>1+</h1>
+                <h1>2+</h1>
                 <p>YEARS OF EXPERIENCE</p>
+                <h5>(0.5 years workexperience)</h5>
             </div>
             < hr />
             <div className="about-achievement">
@@ -44,7 +45,7 @@ const About = () => {
             < hr />
             <div className="about-achievement">
                 <h1>15+</h1>
-                <p>HAPPY CLIENTS AND COWORKERS</p>
+                <p>HAPPY CLIENTS AND CLASSMATES</p>
             </div>
         </div>
     </div>

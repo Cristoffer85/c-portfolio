@@ -14,7 +14,7 @@ const Contact = () => {
         </div>
         <div className="contact-section">
             <div className="contact-left">
-                <h1>Let's Talk</h1>
+                <h1>Let's Talk!</h1>
                 <p>Have one project or several in mind? I'd love to hear about it.</p>
                 <p>Drop me a message and I'll get back to you as soon as possible.</p>
                 <div className="contact-details">
