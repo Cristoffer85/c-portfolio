@@ -113,4 +113,9 @@
     transition: 0.3s;
 }
 
+/* ------------------ TOASTIFY ------------------ */
+.progressbar-success {
+    background-color: #28a745;
+}
+
 
