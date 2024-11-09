@@ -44,4 +44,9 @@
 .nav-connect:hover {
     transform: scale(1.05);     /* == This property increases the size of the button when hovered */
 }
+
+.anchor-link{
+    text-decoration: none;
+    color: white;
+}
   
