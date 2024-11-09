@@ -20,6 +20,18 @@
     gap: 35px;
 }
 
+/* ------------------------ FOOTER BOTTOM ------------------------ */
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.footer-bottom-right{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
 /* ------------------------ FOOTER EMAIL ------------------------ */
 .footer-email-input{
     display: flex;
@@ -37,7 +49,11 @@
     font-family: Outfit;
     font-size: 18px;
 }
+.footer-email-input:hover{
+    border: 2px solid white;
+}
 
+/* ------------------------ FOOTER SUBSCRIBE ------------------------ */
 .footer-subscribe{
     font-size: 20px;
     padding: 22px 50px;
@@ -46,23 +62,9 @@
     cursor: pointer;
     transition: 0.5s;
 }
-
-.footer-bottom{
-    display: flex;
-    justify-content: space-between;
-    font-size: 18px;
-}
-.footer-bottom-right{
-    display: flex;
-    gap: 50px;
-    margin-bottom: 50px;
-}
-
-.footer-email-input:hover{
-    border: 2px solid white;
-}
-
 .footer-subscribe:hover{
     transform: scale(1.1);
     transition: 0.3s;
 }
+
+

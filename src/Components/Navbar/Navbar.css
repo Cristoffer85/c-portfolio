@@ -6,11 +6,13 @@
     margin: 20px 50px;
 }
 
+/* ------------------------ LOGO ------------------------ */
 .nav-logo {
     height: 50px;   
     margin-right: 20px;
 }
-  
+
+/* ------------------------ MENU ------------------------ */
 .nav-menu {
     display: flex;
     align-items: center;
@@ -18,7 +20,18 @@
     gap: 40px;
     font-size: 18px;
 }
+.nav-menu li{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+.nav-menu li img{
+  display: flex;
+  margin: auto;
+}
   
+/* ------------------------ CONNECT ------------------------ */
 .nav-connect {
     padding: 15px 30px;
     border-radius: 50px;
@@ -28,59 +41,7 @@
     transition: 0.5s;           /* == This property makes the transition smoother */
     margin-left: 20px;
 }
-  
 .nav-connect:hover {
     transform: scale(1.05);     /* == This property increases the size of the button when hovered */
 }
-  
-/* ------------------------ RESPONSIVENESS ------------------------ */
-  /* MEDIUM-sized screens */
-  @media (max-width: 768px) {
-    .navbar {
-      margin: 10px 20px;
-      flex-direction: column;
-    }
-  
-    .nav-logo {
-      margin-right: 0;
-      margin-bottom: 10px;
-    }
-    
-    .nav-menu {
-      flex-direction: column;
-      gap: 20px;
-      font-size: 16px;
-    }
-  
-    .nav-connect {
-      margin-left: 0;
-      margin-top: 15px;
-      padding: 12px 25px;
-      font-size: 18px;
-    }
-  }
-  /* MOBILE-sized screens */ 
-  @media (max-width: 480px) {
-    .navbar {
-      padding: 5px 10px;
-      margin: 10px 15px;
-    }
-  
-    .nav-logo {
-      height: 40px;
-      margin-bottom: 10px;
-    }
-  
-    .nav-menu {
-      font-size: 14px;
-      gap: 15px;
-    }
-  
-    .nav-connect {
-      padding: 10px 20px;
-      font-size: 16px;
-      margin-top: 10px;
-      text-align: center;
-    }
-  }
   
