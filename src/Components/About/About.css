@@ -68,7 +68,7 @@
     width: 50%;
     height: 8px;
     border-radius: 50px;
-    background: linear-gradient(264deg, #e6dc50 -5.09%, #1044d4 106.28%)
+    background: linear-gradient(264deg, #ff1e1e -5.09%, #663a3a 106.28%)
 }
 .about-skill:hover{
     transform: scale(1.05);

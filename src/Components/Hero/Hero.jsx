@@ -7,7 +7,7 @@ const Hero = () => {
     <div className='hero'>
         <img src={profile_img} alt="" />
         <h1><span>I'm Cristoffer Östberg,</span> backend developer based in Sweden.</h1>
-        <p>I am a backend developer with experience in primarily Java, C#.NET and Python. And also alot of React (both .js and .ts) and HTML and CSS. I'm passionate about building scalable and efficient systems in every end.</p>
+        <p>I am a backend developer with experience in primarily Java, C#.NET and Python. In frontend React with both js and ts. I'm passionate about building visually appealing, scalable and efficient systems in every end.</p>
         <div className="hero-action">
             <div className="hero-connect">Connect With Me</div>
             <div className="hero-resume">My Resume</div>
