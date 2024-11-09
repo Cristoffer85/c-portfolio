@@ -32,7 +32,7 @@
     margin-bottom: 50px;
 }
 
-/* ------------------------ FOOTER EMAIL ------------------------ */
+/* ------------------------ FOOTER EMAIL, for subscribe that dont know if needed or will = do i need it for this page/how to implement that in that case? ------------------------
 .footer-email-input{
     display: flex;
     gap: 30px;
@@ -53,7 +53,7 @@
     border: 2px solid white;
 }
 
-/* ------------------------ FOOTER SUBSCRIBE ------------------------ */
+/* ------------------------ FOOTER SUBSCRIBE ------------------------
 .footer-subscribe{
     font-size: 20px;
     padding: 22px 50px;
@@ -66,6 +66,8 @@
     transform: scale(1.1);
     transition: 0.3s;
 }
+
+/**/
 
 /* ------------------------ RESPONSIVENESS ------------------------ */
 @media(max-width:768px){

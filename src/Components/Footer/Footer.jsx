@@ -11,6 +11,10 @@ const Footer = () => {
                 <img src={footer_logo} alt="" />
                 <p>I am a backend developer from Sweden with experience in primarily Java, C#.NET and React. Have various experience from both work and school.</p>
             </div>
+            {/*
+
+            Subscribe option that i dont really know right now how to implement or even if want to implement it/needed.
+            
             <div className="footer-top-right">
                 <div className="footer-email-input">
                     <img src={user_icon} alt="" />
@@ -18,6 +22,8 @@ const Footer = () => {
                 </div>
                 <div className="footer-subscribe">Subscribe</div>
             </div>
+            
+            */}
         </div>
         <hr />
         <div className="footer-bottom">
