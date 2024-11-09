@@ -47,3 +47,6 @@ BAM! Super-idea and how to wrap it all up and conclude all as well!
 - In Footer - Terms of Service and Privacy Policy - Generate those from the links attached in tab in browser - import them to a new page
 
 -----------------------------------------------------------------
+
+* Edit:
+    - mywork_data.js to be up-to-date
