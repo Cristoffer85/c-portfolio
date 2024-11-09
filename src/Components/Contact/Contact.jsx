@@ -19,7 +19,7 @@ const Contact = () => {
                 <p>Drop me a message and I'll get back to you as soon as possible.</p>
                 <div className="contact-details">
                     <div className="contact-detail">
-                        <img src={mail_icon} alt="" /> <p>Cristoffer.Ostberg@gmail.com</p>
+                        <img src={mail_icon} alt="" /> <p>cristoffer.ostberg@gmail.com</p>
                     </div>
                     <div className="contact-detail">
                         <img src={call_icon} alt="" /> <p>+46730453309</p>
