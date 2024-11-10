@@ -1,3 +1,4 @@
+Prio - Fix tomorrow
 -----------------------------------------------------------------
 * In contact section, add:
     - LinkedIn,
@@ -28,7 +29,7 @@ BAM! Super-idea and how to wrap it all up and conclude all as well!
 
 
 
-
+2nd - Fix after
 -----------------------------------------------------------------
 * Find old SketchBook (Maybe in memory-box in storage - or un-uppacked box in living room - Or in one of the main closets somewhere think ive seen it) 
 
@@ -39,3 +40,5 @@ And take photos of own drawings and upload them to design page
 
     - Also check out and learn what (rem) instead of (px) are. Supposedly said to be better for responsive
 -----------------------------------------------------------------
+
+* Deploy webpage on Netlify
