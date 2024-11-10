@@ -6,11 +6,6 @@ BAM! Super-idea and how to wrap it all up and conclude all as well!
 
 -----------------------------------------------------------------
 
-* Find out how to crop Project images to exactly 419x280 to fit exactly in good size on page without having to alter any,
-    - Maybe in devtools reducing size of screen to 419x280 already in devtool before screenShotting it?
-
------------------------------------------------------------------
-
 * In contact section, add:
 
     - LinkedIn,
@@ -50,3 +45,11 @@ BAM! Super-idea and how to wrap it all up and conclude all as well!
 
 * Edit:
     - mywork_data.js to be up-to-date
+
+
+-----------------------------------------------------------------
+
+* Responsiveness:
+    - Up to 1200px screen?
+
+    - Also check out and learn what (rem) instead of (px) are. Supposedly said to be better for responsive

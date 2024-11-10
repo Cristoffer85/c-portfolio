@@ -35,7 +35,7 @@
 .nav-connect {
     padding: 15px 30px;
     border-radius: 50px;
-    background: linear-gradient(267deg, #e6dc50 0.36%, #1044d4 102.06%);
+    background: linear-gradient(270deg, #e0a448 10%, #e2671f 100%);
     font-size: 20px;
     cursor: pointer;
     transition: 0.5s;           /* == This property makes the transition smoother */
