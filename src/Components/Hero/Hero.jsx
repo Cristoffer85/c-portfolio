@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Hero.css'
 import profile_img from '../../assets/profile_img.png'
 import AnchorLink from 'react-anchor-link-smooth-scroll';
@@ -11,7 +12,9 @@ const Hero = () => {
         <p>I am a backend developer with experience in primarily Java, C#.NET and Python. In frontend React with both js and ts. I'm passionate about building visually appealing, scalable and efficient systems in every end.</p>
         <div className="hero-action">
             <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect With Me</AnchorLink></div>
-            <div className="hero-resume">My Resume</div>
+            <Link to="/Pages/Resume/Resume" className="hero-link">
+                <div className="hero-resume">My Resume</div>
+            </Link>
         </div>
     </div>   
   )

@@ -52,6 +52,12 @@
     border: 2px solid white;
 }
 
+.hero-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
 .hero-resume{
     padding: 25px 75px;
     border-radius: 50px;

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './MyWork.css'
 import theme_pattern from '../../assets/theme_pattern.png'
 import mywork_data from '../../assets/mywork_data'
@@ -13,13 +14,15 @@ const MyWork = () => {
         </div>
         <div className="mywork-container">
             {mywork_data.map((work, index) => {
-                return <img key={index} src={work.w_img} alt=""/>
+                return <img key={index} src={work.w_img} alt={work.w_name}/>
             })}
         </div>
-        <div className="mywork-showmore">
-            <p>Show More</p>
-            <img src={arrow_icon} alt="" />
-        </div>
+        <Link to="/Pages/Portfolio/Portfolio" className="mywork-link">
+            <div className="mywork-showmore">
+                <p>Show More</p>
+                <img src={arrow_icon} alt="" />
+            </div>
+        </Link>
     </div>
   )
 }

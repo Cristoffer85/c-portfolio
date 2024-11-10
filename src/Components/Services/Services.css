@@ -72,6 +72,17 @@
     margin-top: 20px;
 }
 
+/* ------------------------ SERVICES LINK ------------------------ */
+.services-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+.services-link p {
+    margin-right: 10px;
+}
+
 /* ------------------------ RESPONSIVENESS ------------------------ */
 @media(max-width: 768px){
     .services{

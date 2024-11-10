@@ -46,6 +46,8 @@
 /* ------------------------ SHOW MORE ------------------------ */
 .mywork-showmore{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 15px;
     border-radius: 50px;
     border: 2px solid white;
@@ -56,9 +58,17 @@
     transition: 0.6s;
     cursor: pointer;
 }
-.mywork-showmore:hover{
+.mywork-showmore:hover {
     gap: 30px;
     transition: 0.6s;
+}
+.mywork-link {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.mywork-link p {
+    margin: 0;
 }
 
 /* ------------------------ RESPONSIVENESS ------------------------ */
