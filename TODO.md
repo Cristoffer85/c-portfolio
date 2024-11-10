@@ -1,5 +1,10 @@
 Prio - Fix tomorrow
 -----------------------------------------------------------------
+
+* Hover description on MyWork, displayed
+
+-----------------------------------------------------------------
+
 * In contact section, add:
     - LinkedIn,
     - Github
