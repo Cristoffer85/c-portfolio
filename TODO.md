@@ -5,6 +5,9 @@ Prio - Fix tomorrow
 
 -----------------------------------------------------------------
 
+* Hover description on TopLogo - "Want to be my CO-Worker?"
+-----------------------------------------------------------------
+
 * In contact section, add:
     - LinkedIn,
     - Github
