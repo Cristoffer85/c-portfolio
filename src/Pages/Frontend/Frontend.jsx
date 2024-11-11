@@ -16,9 +16,20 @@ const Frontend = () => {
       <div className="content-grid">
         <h1>Frontend Development</h1>
 
-  
-        <p>Add content</p>
+        <p>Frontend development is the part of webdevelopment (or an application) that is responsible for mostly the user interface and user experience of a website.</p>
+        <p>It is the part of a website or application that a user interacts with, and is usually built with combined technologies like HTML, CSS and JavaScript to form the body (HTML = skeleton, Javascript = Brain, CSS = Skin) The frontend is the part that the user interacts with the backend (server).</p>
+        <p>Below you can view some of my skills:</p>
 
+        <ul className="dotted-list">
+          <li>API-connection (communicating with an endpoint from an Url)</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>React</li>
+          <li>Javascript</li>
+          <li>Typescript</li>
+          <li>Responsive Design</li>
+          <li>(Basic) UX/UI</li>
+        </ul>
 
       </div>
     </div>

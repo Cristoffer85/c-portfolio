@@ -2,6 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../../Pages/Subpages.css';
 import x from '../../assets/x.ico';
+import Githubrepomain from '../../assets/Githubrepomain.png';
 
 const Portfolio = () => {
   const navigate = useNavigate();
@@ -16,8 +17,7 @@ const Portfolio = () => {
       <div className="content-grid">
         <h1>Portfolio</h1>
 
-  
-        <p>Add content</p>
+        <img src={Githubrepomain} alt="" />
 
 
       </div>

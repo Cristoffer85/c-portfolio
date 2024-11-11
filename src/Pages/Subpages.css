@@ -10,27 +10,69 @@
   right: 20px;
   padding: 10px;
   cursor: pointer;
+  transform: scaleX(-1);
 }
 
 /* ------------------ CONTENT GRID ------------------ */
 .content-grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr; /* Default to a single column */
   gap: 20px;
 }
+.content-grid span{
+  color: #526cff;
+}
+
 
 /* ------------------ LINK STYLES ------------------ */
 a {
   color: #7886ff;
-  text-decoration: none;
+  text-decoration: none; /* Remove link decoration */
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: underline; /* Optional: Add underline on hover */
+}
+
+
+/* ------------------ IMAGE STYLES ------------------ */
+.content-grid img {
+  width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure the image doesn't exceed the container's width */
+}
+
+
+/* ------------------ DOTTED LIST STYLES ------------------ */
+.dotted-list {
+  list-style-type: none;
+  padding-left: 20px;
+}
+.dotted-list li {
+  position: relative;
+  padding-left: 20px; 
+  margin-bottom: 10px; 
+  font-size: 1.1em; 
+  color: #4b4a4a; 
+}
+.dotted-list li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #64688b; 
+  font-size: 1.5em; 
+  line-height: 1; 
+}
+.dotted-list li:hover {
+  color: #c9c9c9;
 }
 
 /* ------------------ RESPONSIVENESS ------------------ */
 @media (min-width: 769px) {
   .content-grid {
     grid-template-columns: 1fr;
+  }
+  .content-grid img {
+    width: auto; 
+    max-width: 100%;
   }
 }
