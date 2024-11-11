@@ -1,25 +1,29 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../../Pages/Subpages.css';
-import arrowIcon from '../../assets/arrow_icon.svg';
+import x from '../../assets/x.ico';
 
 const Resume = () => {
   const navigate = useNavigate();
 
   const handleBackClick = () => {
-    navigate('/', { state: { scrollTo: '/', instant: true } });
+    navigate('/', { state: { scrollTo: 'services', instant: true } });
   };
 
   return (
     <div className="subpage-container">
-      <img src={arrowIcon} alt="Back" className="back-icon" onClick={handleBackClick} />
+      <img src={x} alt="Back" className="back-icon" onClick={handleBackClick} />
       <div className="content-grid">
         <h1>Resume</h1>
-
-  
-        <p>Add content</p>
-
-
+        <h2>Download my resumes:</h2>
+        <ul>
+          <li><a href="/Resume_swedish.pdf" download>Resume (Swedish)</a></li>
+          <li><a href="/Resume_english.pdf" download>Resume (English)</a></li>
+        </ul>
+        <h2>Download my certificate degree:</h2>
+        <ul>
+          <li><a href="/Certificate_degree.pdf" download>Certificate Degree</a></li>
+        </ul>
       </div>
     </div>
   );

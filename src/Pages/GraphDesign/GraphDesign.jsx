@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../../Pages/Subpages.css';
-import arrowIcon from '../../assets/arrow_icon.svg';
+import x from '../../assets/x.ico';
 
 const GraphDesign = () => {
   const navigate = useNavigate();
@@ -12,7 +12,7 @@ const GraphDesign = () => {
 
   return (
     <div className="subpage-container">
-      <img src={arrowIcon} alt="Back" className="back-icon" onClick={handleBackClick} />
+      <img src={x} alt="Back" className="back-icon" onClick={handleBackClick} />
       <div className="content-grid">
         <h1>Graphics Design</h1>
 
