@@ -40,4 +40,8 @@ Links in contact.
 
 And take photos of own drawings and upload them to design page
 -----------------------------------------------------------------
+- Fix content on each new page created + back button. Have a general uni-approach on each page that can easily be reused and copied to the others
+
+    - Also make sure theyre responsive+working for screens with max 768px.
+-----------------------------------------------------------------
 

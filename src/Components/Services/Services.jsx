@@ -39,7 +39,7 @@ const Services = () => {
     {
         s_no: "06",
         s_name: "Be a real good pal!",
-        s_desc: "Or if you just want a real good friend here you got me! Connect with me or hit me up on ByteBook! The only requirement is that you become my good pal too.",
+        s_desc: "Or if you just want a real good friend here you got me! Connect with me (in the near future you can also hit me up on ByteBook! - Ill announce when its up) The only requirement is that you become my good pal too.",
         link: "/Pages/Friend/Friend"
     },
   ];
