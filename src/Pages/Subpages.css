@@ -1,0 +1,27 @@
+.subpage-container {
+    padding: 20px;
+    position: relative;
+  }
+  
+  /* ------------------ BACK ICON ------------------ */
+  .back-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    cursor: pointer;
+    transform: scaleX(-1);
+  }
+  
+  /* ------------------ CONTENT GRID ------------------ */
+  .content-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .content-grid {
+      grid-template-columns: 1fr;
+    }
+  }

@@ -1,13 +1,28 @@
-import React from 'react'
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import '../../Pages/Subpages.css';
+import arrowIcon from '../../assets/arrow_icon.svg';
 
 const Backend = () => {
-  return (
-    <div>
-      <h1>Backend Development</h1>
-      <p>Build your next abases.</p>
-      {/* Add more details as needed */}
-    </div>
-  )
-}
+  const navigate = useNavigate();
 
-export default Backend
+  const handleBackClick = () => {
+    navigate('/', { state: { scrollTo: 'services', instant: true } });
+  };
+
+  return (
+    <div className="subpage-container">
+      <img src={arrowIcon} alt="Back" className="back-icon" onClick={handleBackClick} />
+      <div className="content-grid">
+        <h1>Backend Development</h1>
+
+  
+        <p>Add content</p>
+
+
+      </div>
+    </div>
+  );
+};
+
+export default Backend;

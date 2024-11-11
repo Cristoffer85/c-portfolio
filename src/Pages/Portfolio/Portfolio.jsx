@@ -1,13 +1,28 @@
-import React from 'react'
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import '../../Pages/Subpages.css';
+import arrowIcon from '../../assets/arrow_icon.svg';
 
 const Portfolio = () => {
-  return (
-    <div>
-      <h1>Portfolio</h1>
-      <p>Here you can showcase your work in more detail.</p>
-      {/* Add more details as needed */}
-    </div>
-  )
-}
+  const navigate = useNavigate();
 
-export default Portfolio
+  const handleBackClick = () => {
+    navigate('/', { state: { scrollTo: 'work', instant: true } });
+  };
+
+  return (
+    <div className="subpage-container">
+      <img src={arrowIcon} alt="Back" className="back-icon" onClick={handleBackClick} />
+      <div className="content-grid">
+        <h1>Portfolio</h1>
+
+  
+        <p>Add content</p>
+
+
+      </div>
+    </div>
+  );
+};
+
+export default Portfolio;
