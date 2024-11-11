@@ -1,15 +1,5 @@
-Fix:
------------------------------------------------------------------
-* Deploy webpage on Netlify
+2nd prio Fix (after first complete application buildup and deploy 2024-11-11):
 
-
-
-
-
-
-
-
-2nd - Fix after
 -----------------------------------------------------------------
 * Responsiveness:
     - Up to 1200px screen?

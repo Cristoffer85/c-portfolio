@@ -45,3 +45,22 @@ And take photos of own drawings and upload them to design page
     - Also make sure theyre responsive+working for screens with max 768px.
 -----------------------------------------------------------------
 
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------
+SITE DEPLOYED! :
+
+* 2024-11-11 First Alpha Deploy webpage on Netlify
+
+co-po.netlify.app
+-----------------------------------------------------------------
+
