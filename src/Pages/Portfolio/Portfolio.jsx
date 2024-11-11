@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../../Pages/Subpages.css';
 import x from '../../assets/x.ico';
@@ -17,20 +17,25 @@ const Portfolio = () => {
     navigate('/', { state: { scrollTo: 'work', instant: true } });
   };
 
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page when the component mounts
+  }, []);
+
   return (
     <div className="subpage-container">
       <img src={x} alt="Back" className="back-icon" onClick={handleBackClick} />
       <div className="content-grid">
         <h1>Portfolio</h1>
 
+        <img src={Githubrepomain} alt="" />
+
         <div className="contact-detail contact-detail-link">
             <FaGithub /> <a href="https://github.com/Cristoffer85" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
 
-        <img src={Githubrepomain} alt="" />
-
         <p>This is my portfolio page, where you above can view a small screenshot of the repository mainpage on Github and also a link to it.</p>
-        <p>Listed here below are the different projects i have been working on for the last 2+ years:</p>
+        <h3>Listed below here are the different projects i have been working on for the last 2+ years:</h3>
+        <hr></hr>
 
         <h3>ByteBook</h3>
         <p>A social media application for developers. Helping solve problems and just connect.</p>

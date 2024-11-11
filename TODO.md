@@ -1,4 +1,4 @@
-Prio - Fix tomorrow
+Fix:
 -----------------------------------------------------------------
 * Deploy webpage on Netlify
 
