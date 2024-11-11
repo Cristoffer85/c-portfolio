@@ -1,13 +1,24 @@
-import React from 'react'
+import React from 'react';
+import { useHistory } from 'react-router-dom';
+import './Frontend.css';
 
 const Frontend = () => {
-  return (
-    <div>
-      <h1>Frontend Development</h1>
-      <p>Would yoanoth that.</p>
-      {/* Add more details as needed */}
-    </div>
-  )
-}
+  const history = useHistory();
 
-export default Frontend
+  const handleBackClick = () => {
+    history.push('/MyWork');
+  };
+
+  return (
+    <div className="frontend-container">
+      <button className="back-button" onClick={handleBackClick}>
+        Back
+      </button>
+      <div className="content-grid">
+        {/* Add your content here */}
+      </div>
+    </div>
+  );
+};
+
+export default Frontend;

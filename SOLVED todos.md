@@ -23,4 +23,21 @@
 - In Services - Read More Arrows, (when hovewring the containers) = Where does those links go to?
 - In MyWork - Show More Button = Where does that link go to?
 -----------------------------------------------------------------
+Add:
+    - LinkedIn,
+    - Github
+Links in contact.
+-----------------------------------------------------------------
+* In contact section at the bottom, add:
+
+- Insert Ghostbuster picture, and when hovering it add alt="Yes, i 3D-print and sew a bit too!"
+-----------------------------------------------------------------
+* Hover description on TopLogo - "Want to be my CO-Worker?"
+-----------------------------------------------------------------
+* Hover description on MyWork, displayed
+-----------------------------------------------------------------
+* Find old SketchBook (Maybe in memory-box in storage - or un-uppacked box in living room - Or in one of the main closets somewhere think ive seen it) 
+
+And take photos of own drawings and upload them to design page
+-----------------------------------------------------------------
 

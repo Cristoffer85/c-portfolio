@@ -6,6 +6,8 @@ import location_icon from '../../assets/location_icon.svg';
 import call_icon from '../../assets/call_icon.svg';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';                     // switched to use toastify for this instead of alert, so much nicer looking and cleaner
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import Ghostbuster from '../../assets/Ghostbuster.png';
 
 const Contact = () => {
 
@@ -62,6 +64,12 @@ const Contact = () => {
                         <div className="contact-detail">
                             <img src={location_icon} alt="" /> <p>Gothenburg, Sweden</p>
                         </div>
+                        <div className="contact-detail contact-detail-link">
+                            <FaLinkedin /> <a href="https://www.linkedin.com/in/cö1" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        </div>
+                        <div className="contact-detail contact-detail-link">
+                            <FaGithub /> <a href="https://github.com/Cristoffer85" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </div>
                     </div>
                 </div>
                 <form onSubmit={onSubmit} className="contact-right">
@@ -73,6 +81,9 @@ const Contact = () => {
                     <textarea name="message" rows="8" placeholder="Enter your message" />
                     <button type='submit' className="contact-submit">Submit now</button>
                 </form>
+            </div>
+            <div className="contact-image">
+                <img src={Ghostbuster} alt="Ghostbuster 3D-print+sewing" title="Yes, i 3D-print and sew just a little bit too!"/>
             </div>
         </div>
     );
