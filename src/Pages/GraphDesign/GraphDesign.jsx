@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import '../../Pages/Subpages.css';
 import x from '../../assets/x.ico';
 import Logodesign from '../../assets/Logodesign.png';
+import Logodesign2 from '../../assets/Logodesign2.png';
 import DesignFireEagle from '../../assets/DesignFireEagle.png';
 import DesignNavUnderlinePixelCircuitPlay from '../../assets/DesignNavUnderlinePixelCircuitPlay.png';
 import DesignSpritesheet from '../../assets/DesignSpritesheet.png';
@@ -33,6 +34,7 @@ const GraphDesign = () => {
         <img src={DesignNavUnderlinePixelCircuitPlay} alt="" title="Pixel-play desiging an underline in this application"/>
         <img src={DesignSpritesheet} alt="" title="Yes i have pixel by pixel made an entire spritesheet as well."/>
         <img src={DesignArchangelandlion} alt="" title="One of my earlist drawings. As you can see im improving!"/>
+        <img src={Logodesign2} alt="" title="Logodesign GIMP. Take two."/>
 
       </div>
     </div>

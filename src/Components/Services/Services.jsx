@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Services.css'
-import theme_pattern from '../../assets/theme_pattern.png'
+import theme_pattern from '../../assets/theme_pattern2.png'
 import arrow_icon from '../../assets/arrow_icon.svg'
 
 const Services = () => {

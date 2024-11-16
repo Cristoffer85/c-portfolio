@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contact.css';
-import theme_pattern from '../../assets/theme_pattern.png';
+import theme_pattern from '../../assets/theme_pattern2.png';
 import mail_icon from '../../assets/mail_icon.svg';
 import location_icon from '../../assets/location_icon.svg';
 import call_icon from '../../assets/call_icon.svg';
@@ -52,7 +52,7 @@ const Contact = () => {
             <div className="contact-section">
                 <div className="contact-left">
                     <h1>Let's Talk!</h1>
-                    <p>Have one project or several in mind? I'd love to hear about it.</p>
+                    <p>Have one or several projects in mind or just interested to talk? I'd love to hear about it.</p>
                     <p>Drop me a message and I'll get back to you as soon as possible.</p>
                     <div className="contact-details">
                         <div className="contact-detail">

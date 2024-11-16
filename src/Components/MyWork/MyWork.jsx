@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './MyWork.css'
-import theme_pattern from '../../assets/theme_pattern.png'
+import theme_pattern from '../../assets/theme_pattern2.png'
 import mywork_data from '../../assets/mywork_data'
 import arrow_icon from '../../assets/arrow_icon.svg'
 
