@@ -1,4 +1,10 @@
 .subpage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 80px 60px;
   padding: 20px;
   position: relative;
 }
@@ -6,15 +12,18 @@
 /* ------------------ BACK ICON ------------------ */
 .back-icon {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: -20px;
+  right: 0px;
   padding: 10px;
   cursor: pointer;
-  transform: scaleX(-1);
 }
 
 /* ------------------ CONTENT GRID ------------------ */
 .content-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   display: grid;
   grid-template-columns: 1fr; /* Default to a single column */
   gap: 20px;
@@ -23,24 +32,21 @@
   color: #526cff;
 }
 
-
 /* ------------------ LINK STYLES ------------------ */
 a {
   color: #7886ff;
-  text-decoration: none; /* Remove link decoration */
+  text-decoration: none;
 }
 a:hover {
-  text-decoration: underline; /* Optional: Add underline on hover */
+  text-decoration: underline;
 }
-
 
 /* ------------------ IMAGE STYLES ------------------ */
 .content-grid img {
-  width: 100%; /* Make the image responsive */
-  height: auto; /* Maintain aspect ratio */
-  max-width: 100%; /* Ensure the image doesn't exceed the container's width */
+  width: 100%;
+  height: auto;
+  max-width: 100%;
 }
-
 
 /* ------------------ DOTTED LIST STYLES ------------------ */
 .dotted-list {
@@ -52,7 +58,7 @@ a:hover {
   padding-left: 20px; 
   margin-bottom: 10px; 
   font-size: 1.1em; 
-  color: #4b4a4a; 
+  color: #797777; 
 }
 .dotted-list li::before {
   content: '•';
@@ -63,16 +69,44 @@ a:hover {
   line-height: 1; 
 }
 .dotted-list li:hover {
-  color: #c9c9c9;
+  color: #e7e5e5;
 }
 
 /* ------------------ RESPONSIVENESS ------------------ */
 @media (min-width: 769px) {
+  .subpage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 60px;
+    padding: 20px;
+    position: relative;
+  }
+  
   .content-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     grid-template-columns: 1fr;
   }
+
+  .content-grid hr{
+    width: 60%;
+  }
+  
   .content-grid img {
     width: auto; 
     max-width: 100%;
+  }
+
+  .dotted-list {
+    display: block;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }

@@ -130,6 +130,11 @@
     background-color: #28a745;
 }
 
+.contact-bottom-image{
+    display:block;
+    max-width: 100%;
+}
+
 /* ------------------ RESPONSIVENESS ------------------ */
 @media(max-width:768px){
     .contact{

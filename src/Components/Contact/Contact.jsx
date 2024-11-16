@@ -82,7 +82,7 @@ const Contact = () => {
                     <button type='submit' className="contact-submit">Submit now</button>
                 </form>
             </div>
-            <div className="contact-image">
+            <div className="contact-bottom-image">
                 <img src={Ghostbuster} alt="Ghostbuster 3D-print+sewing" title="Yes, i 3D-print and sew just a little bit too!"/>
             </div>
         </div>

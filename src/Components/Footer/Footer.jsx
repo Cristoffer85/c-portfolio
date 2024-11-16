@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import footer_logo from '../../assets/footer_logo.png'
+import footer_logo from '../../assets/footer_logo2.png'
 //import user_icon from '../../assets/user_icon.svg'
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="footer-top">
             <div className="footer-top-left">
                 <img src={footer_logo} alt="" />
-                <p>I am a backend developer from Sweden with experience in primarily Java, C#.NET and React. Have various experience from both work and school.</p>
+                <p>I am a developer from Sweden with experience in primarily Java, C#.NET and React. Have various experience from both work and school.</p>
             </div>
             {/*
 

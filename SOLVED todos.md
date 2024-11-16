@@ -44,6 +44,12 @@ And take photos of own drawings and upload them to design page
 
     - Also make sure theyre responsive+working for screens with max 768px.
 -----------------------------------------------------------------
+* Navbar on mobile - Too wide, make it narrower
+-----------------------------------------------------------------
+* Kontroll textinnehåll - Backend developer bättre idé korta ned till endast Developer?
+-----------------------------------------------------------------
+* Kontroll textinnehåll - Junior, ta bort
+-----------------------------------------------------------------
 
 
 
