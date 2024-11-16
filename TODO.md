@@ -1,9 +1,10 @@
+[WIDTH max-768px + DESKTOP]
+
 Prio fix:
 ----------------------------------
 * My Services       - Containers, kolla unifierat utseende
 * My Latest Work    - Imgs, klickbar med länk till relaterat innehåll
 
-* Staplar för skills mobil - skalar inte ned/visas lika fint, åtgärda
 * Buttons - inuti centrera text + kolumnjustering
 * Extrakoll innehåll - alla skärmstorlekar.
 

@@ -65,11 +65,17 @@
 .about-skill hr{
     outline: none;
     border: none;
-    width: 50%;
     height: 8px;
     border-radius: 50px;
     background: linear-gradient(264deg, #ff1e1e -5.09%, #663a3a 106.28%)
 }
+.hr-java { width: 90%; }
+.hr-csharp { width: 60%; }
+.hr-python { width: 40%; }
+.hr-cpp { width: 20%; }
+.hr-react { width: 80%; }
+.hr-htmlcss { width: 70%; }
+
 .about-skill:hover{
     transform: scale(1.05);
     transition: 0.3s;
@@ -155,4 +161,10 @@
         font-size: 12px;
     }
 
+        .hr-java { width: 50%; }
+        .hr-csharp { width: 40%; }
+        .hr-python { width: 30%; }
+        .hr-cpp { width: 20%; }
+        .hr-react { width: 50%; }
+        .hr-htmlcss { width: 40%; }
 }
