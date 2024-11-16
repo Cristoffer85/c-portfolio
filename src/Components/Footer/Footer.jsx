@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="footer">
         <div className="footer-top">
             <div className="footer-top-left">
-                <img src={footer_logo} alt="Footer_logo2" title="I would gladly like to be YOUR CO-worker."/>
+                <img src={footer_logo} alt="Footer_logo2" title="I would gladly be YOUR CO-worker."/>
                 <p>I am a developer from Sweden with experience in primarily Java, C#.NET and React. Have various experience from both work and school.</p>
             </div>
             {/*
