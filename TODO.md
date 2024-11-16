@@ -15,6 +15,8 @@ Prio fix:
 
 * Generell sista koll - Allt skalar upp+ned bra alla skärmstorlekar (dev tools)
 
+* Uppdatera .ico i browsertabben till nya logo
+
 
 2nd prio fix:
 ----------------------------------
