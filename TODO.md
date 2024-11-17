@@ -2,29 +2,29 @@
 
 Prio fix:
 ----------------------------------
+* ANVÄND DEVTOOLS I FIREFOX (ctrl+shift+i) istället för bara förminska webbläsaren när kolla responsivitet. Allt ser helt annorlunda ut där nästan.
+
 * My Services       - Containers, kolla unifierat utseende
 * My Latest Work    - Imgs, klickbar med länk till relaterat innehåll
-
 * Buttons - inuti centrera text + kolumnjustering
 * Extrakoll innehåll - alla skärmstorlekar.
-
 * Sub-sidor (Read more, Länkar etc) kontrollera innehåll alla skärmstorlekar. Centrering, flex och align kanske glömt.
 * Kontroll färgtoner i listor
-
 * Kontroll Sidscroll         - kontrollera. (Ev fix = overflow-x hidden i index)
-
 * Generell sista koll - Allt skalar upp+ned bra alla skärmstorlekar (dev tools)
-
 * Uppdatera .ico i browsertabben till nya logo
+* Ta bort möjlighet skicka tomt formulär
+* Klick utanför meny skall stänga menyn i mobilläge
+* Scroll på varje subpage entered skall börja at top, inte i bottom som på vissa just nu.
+* Fixa ghostbusterbilden följ med i storlek på sidan. Den ställer till med mycket.
 
 
-2nd prio fix:
+2nd:
 ----------------------------------
 * <p>, mer innehållsalterering för ytterligare lyft
 * Ev. Konsol-varningar
 
-
-BIG 3rd prio fix:
+3rd:
 ----------------------------------
 * Spel              - Packetering/Containerisering, kontroll spelbarhet i webbläsare?
 
