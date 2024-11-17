@@ -1,35 +1,38 @@
-[WIDTH max-768px + DESKTOP]
-
-Prio fix:
+BREAKPOINT 1 - [max-width 768px]
 ----------------------------------
+Prio fix:
 * ANVÄND DEVTOOLS I FIREFOX (ctrl+shift+i) istället för bara förminska webbläsaren när kolla responsivitet. Allt ser helt annorlunda ut där nästan.
 
-* My Services       - Containers, kolla unifierat utseende
 * My Latest Work    - Imgs, klickbar med länk till relaterat innehåll
-* Buttons - inuti centrera text + kolumnjustering
 * Extrakoll innehåll - alla skärmstorlekar.
-* Sub-sidor (Read more, Länkar etc) kontrollera innehåll alla skärmstorlekar. Centrering, flex och align kanske glömt.
 * Kontroll färgtoner i listor
 * Generell sista koll - Allt skalar upp+ned bra alla skärmstorlekar (dev tools)
 * Uppdatera .ico i browsertabben till nya logo
 
-
 2nd:
-----------------------------------
 * <p>, mer innehållsalterering för ytterligare lyft
 * Ev. Konsol-varningar
 
 3rd:
-----------------------------------
 * Spel              - Packetering/Containerisering, kontroll spelbarhet i webbläsare?
 
 
+
+BREAKPOINT 2 - [min-width 769px && max-width 1200px]
+----------------------------------
+* Lots of general responsivity to add and do here... Not started yet.
+
+
+
+
+BREAKPOINT 3 - [min-width 1201px]
+----------------------------------
 
 
 
 
 -----------------------------------------------------------------
-* Responsiveness:
+* Responsiveness, General good-to-know:
 ####################################
 Mobile-first strategy is generally a REALLY good idea.
 ####################################
