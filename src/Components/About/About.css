@@ -130,22 +130,44 @@
         flex-direction: column;
     }
     .about-left{
-        display: none;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+    .about-left img{
+        display: flex;
+        width: 100%;
+        height: auto;
+        max-width: 300px;
     }
     .about-para{
         font-size: 18px;
         line-height: 32px;
     }
-    .about-skill{
-        gap: 20px;
-        align-items: center;
+    .about-skill {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
     }
-    .about-skill p{
-        font-size: 20px;
+
+    .about-skill p {
+        font-size: 14px;
+        text-align: left;
+        width: 100%;
     }
-    .about-skill hr{
+
+    .about-skill hr {
         height: 6px;
     }
+
+    .hr-java { width: 90%; }
+    .hr-csharp { width: 60%; }
+    .hr-python { width: 40%; }
+    .hr-cpp { width: 20%; }
+    .hr-react { width: 80%; }
+    .hr-htmlcss { width: 70%; }
+
     .about-achievements{
         justify-content: space-between;
     }
@@ -160,11 +182,4 @@
         text-align: center;
         font-size: 12px;
     }
-
-        .hr-java { width: 50%; }
-        .hr-csharp { width: 40%; }
-        .hr-python { width: 30%; }
-        .hr-cpp { width: 20%; }
-        .hr-react { width: 50%; }
-        .hr-htmlcss { width: 40%; }
 }

@@ -14,7 +14,7 @@
     - Game Development
     - ByteBook Page (First deploy ByteBook as well, then link add)
 
-- Portfolio Page
+* Portfolio Page
     - For what happens after clicking the Show more button on MyWork page
 -----------------------------------------------------------------
 * Edit:
@@ -30,29 +30,23 @@ Add:
 Links in contact.
 -----------------------------------------------------------------
 * In contact section at the bottom, add:
-
-- Insert Ghostbuster picture, and when hovering it add alt="Yes, i 3D-print and sew a bit too!"
------------------------------------------------------------------
+    - Ghostbuster picture, and when hovering it add title="Yes, i 3D-print and sew a bit too!"
 * Hover description on TopLogo - "Want to be my CO-Worker?"
------------------------------------------------------------------
 * Hover description on MyWork, displayed
------------------------------------------------------------------
 * Find old SketchBook (Maybe in memory-box in storage - or un-uppacked box in living room - Or in one of the main closets somewhere think ive seen it) 
-
-And take photos of own drawings and upload them to design page
------------------------------------------------------------------
-- Fix content on each new page created + back button. Have a general uni-approach on each page that can easily be reused and copied to the others
-
+    - And take photos of own drawings and upload them to design page
+* Fix content on each new page created + back button. Have a general uni-approach on each page that can easily be reused and copied to the others
     - Also make sure theyre responsive+working for screens with max 768px.
------------------------------------------------------------------
 * Navbar on mobile - Too wide, make it narrower
------------------------------------------------------------------
 * Kontroll textinnehåll - Backend developer bättre idé korta ned till endast Developer?
------------------------------------------------------------------
 * Kontroll textinnehåll - Junior, ta bort
------------------------------------------------------------------
 * Staplar för skills mobil - skalar inte ned/visas lika fint, åtgärda
------------------------------------------------------------------
+* Fixa ghostbusterbilden följ med i storlek på sidan. Den ställer till med mycket.
+* Ta bort möjlighet skicka tomt formulär
+* Klick utanför meny skall stänga menyn i mobilläge
+* Scroll på varje subpage entered skall börja at top, inte i bottom som på vissa just nu.
+* About profile_image used and implemented on mobile as well
+* Kontroll Sidscroll         - kontrollera. (Ev fix = overflow-x hidden i index)
 
 
 

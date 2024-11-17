@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Contact.css';
 import theme_pattern from '../../assets/theme_pattern2.png';
 import mail_icon from '../../assets/mail_icon.svg';
@@ -14,6 +14,16 @@ const Contact = () => {
     const onSubmit = async (event) => {
         event.preventDefault();
         const formData = new FormData(event.target);
+
+        // Validate form fields
+        const name = formData.get('name').trim();
+        const email = formData.get('email').trim();
+        const message = formData.get('message').trim();
+
+        if (!name || !email || !message) {
+            toast.error("All fields are required.");
+            return;
+        }
 
         formData.append("access_key", "4b8b60a9-65e1-48ec-ab19-a2328c8186c6");
 

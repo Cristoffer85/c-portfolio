@@ -10,13 +10,8 @@ Prio fix:
 * Extrakoll innehåll - alla skärmstorlekar.
 * Sub-sidor (Read more, Länkar etc) kontrollera innehåll alla skärmstorlekar. Centrering, flex och align kanske glömt.
 * Kontroll färgtoner i listor
-* Kontroll Sidscroll         - kontrollera. (Ev fix = overflow-x hidden i index)
 * Generell sista koll - Allt skalar upp+ned bra alla skärmstorlekar (dev tools)
 * Uppdatera .ico i browsertabben till nya logo
-* Ta bort möjlighet skicka tomt formulär
-* Klick utanför meny skall stänga menyn i mobilläge
-* Scroll på varje subpage entered skall börja at top, inte i bottom som på vissa just nu.
-* Fixa ghostbusterbilden följ med i storlek på sidan. Den ställer till med mycket.
 
 
 2nd:

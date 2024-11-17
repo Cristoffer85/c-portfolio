@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../../Pages/Subpages.css';
 import x from '../../assets/x.ico';
 
 const Resume = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+
   const navigate = useNavigate();
 
   const handleBackClick = () => {

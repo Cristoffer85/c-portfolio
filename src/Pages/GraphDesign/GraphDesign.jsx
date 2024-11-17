@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../../Pages/Subpages.css';
 import x from '../../assets/x.ico';
@@ -9,9 +9,11 @@ import DesignNavUnderlinePixelCircuitPlay from '../../assets/DesignNavUnderlineP
 import DesignSpritesheet from '../../assets/DesignSpritesheet.png';
 import DesignArchangelandlion from '../../assets/DesignArchangelandlion.png';
 
-
-
 const GraphDesign = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const navigate = useNavigate();
 
   const handleBackClick = () => {
