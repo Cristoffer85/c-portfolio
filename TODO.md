@@ -9,20 +9,12 @@ Prio fix:
 * Generell sista koll - Allt skalar upp+ned bra alla skärmstorlekar (dev tools)
 * Uppdatera .ico i browsertabben till nya logo
 
-2nd:
-* <p>, mer innehållsalterering för ytterligare lyft
-* Ev. Konsol-varningar
-
-3rd:
-* Spel              - Packetering/Containerisering, kontroll spelbarhet i webbläsare?
 
 
 
 BREAKPOINT 2 - [min-width 769px && max-width 1200px]
 ----------------------------------
 * Lots of general responsivity to add and do here... Not started yet.
-
-
 
 
 
@@ -43,15 +35,16 @@ BREAKPOINT 3 - [min-width 1201px]
 
 
 
+2nd:
+* <p>, mer innehållsalterering för ytterligare lyft
+* Ev. Konsol-varningar
+* When Both CPortfolio and ByteBook successfully deployed
+    - In contact section add ByteBook
+    - In Footer - Terms of Service and Privacy Policy - Generate those from links in browser (after deploying it, because generator needs url for it)
 
+3rd:
+* Spel              - Packetering/Containerisering, kontroll spelbarhet i webbläsare?
 
-
------------------------------------------------------------------
-* When Both CPortfolio - and ByteBook successfully deployed
-
-- In contact section add ByteBook
-- In Footer - Terms of Service and Privacy Policy - Generate those from the links attached in tab in browser (after deploying it, because the generator needed the url as well for it  and import them to a new page
------------------------------------------------------------------
 
 
 
