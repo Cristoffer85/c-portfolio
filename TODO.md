@@ -25,13 +25,42 @@ BREAKPOINT 2 - [min-width 769px && max-width 1200px]
 
 
 
+
+
+
+
 BREAKPOINT 3 - [min-width 1201px]
 ----------------------------------
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 -----------------------------------------------------------------
+* When Both CPortfolio - and ByteBook successfully deployed
+
+- In contact section add ByteBook
+- In Footer - Terms of Service and Privacy Policy - Generate those from the links attached in tab in browser (after deploying it, because the generator needed the url as well for it  and import them to a new page
+-----------------------------------------------------------------
+
+
+
+
+
+
+
+
+####################################
 * Responsiveness, General good-to-know:
 ####################################
 Mobile-first strategy is generally a REALLY good idea.
@@ -61,10 +90,4 @@ SVG best type of image type. SVGs alter resolution based on image paths, not pix
     3rem = 36, 
     1.5rem = 18 etc.
 ####################################
------------------------------------------------------------------
-* When Both CPortfolio - and ByteBook successfully deployed
-
-- In contact section add ByteBook
-- In Footer - Terms of Service and Privacy Policy - Generate those from the links attached in tab in browser (after deploying it, because the generator needed the url as well for it  and import them to a new page
------------------------------------------------------------------
 

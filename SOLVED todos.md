@@ -49,5 +49,7 @@ SITE DEPLOYED! :
 * 2024-11-11 First Alpha Deploy webpage on Netlify
 
 co-po.netlify.app
+
+* Latest version 2024-11-17 - fully responsive and looking good up to 768px and desktop, next to alter content between 769 and 1200px
 -----------------------------------------------------------------
 
