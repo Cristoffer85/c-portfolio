@@ -21,7 +21,7 @@ const Contact = () => {
         const message = formData.get('message').trim();
 
         if (!name || !email || !message) {
-            toast.error("All fields are required.");
+            toast.error("You must fill in all fields!");
             return;
         }
 
