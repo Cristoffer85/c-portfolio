@@ -129,7 +129,7 @@
     }
 }
 
-/* ------------------------ RESPONSIVENESS - to Max 1400px ------------------------ */
+/* ------------------------ RESPONSIVENESS - between 769 and 1400px ------------------------ */
 @media(min-width:769px) and (max-width: 1400px){
 
     .services-title {
