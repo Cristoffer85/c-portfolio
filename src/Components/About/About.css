@@ -74,17 +74,18 @@
     border-radius: 50px;
     background: linear-gradient(264deg, #ff1e1e -5.09%, #663a3a 106.28%)
 }
+.about-skill:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* ------------- Skills - easier to change percentage here for all responsive screen sizes at once, neat huh? :) ------------- */
 .hr-java { width: 90%; }
 .hr-csharp { width: 60%; }
 .hr-python { width: 40%; }
 .hr-cpp { width: 20%; }
 .hr-react { width: 80%; }
 .hr-htmlcss { width: 70%; }
-
-.about-skill:hover{
-    transform: scale(1.05);
-    transition: 0.3s;
-}
 
 /* ------------- ABOUT ACHIEVEMENTS ------------- */
 .about-achievements{
@@ -116,13 +117,14 @@
     transition: 0.5s;
 }
 
-/* ------------- RESPONSIVENESS ------------- */
+/* ------------- RESPONSIVENESS - to max 768px ------------- */
 @media(max-width: 768px){
     .about{
         gap: 80px;
         margin: 50px 70px;
         align-items: center;
     }
+
     .about-title {
         align-items: center;
         justify-content: center;
@@ -138,9 +140,11 @@
         right: 0;
         z-index: -1;
     }
+
     .about-sections{
         flex-direction: column;
     }
+
     .about-left{
         display: flex;
         justify-content: center;
@@ -153,10 +157,12 @@
         height: auto;
         max-width: 300px;
     }
+
     .about-para{
         font-size: 18px;
         line-height: 32px;
     }
+
     .about-skill {
         flex-direction: column;
         align-items: flex-start;
@@ -170,12 +176,6 @@
     .about-skill hr {
         height: 6px;
     }
-    .hr-java { width: 90%; }
-    .hr-csharp { width: 60%; }
-    .hr-python { width: 40%; }
-    .hr-cpp { width: 20%; }
-    .hr-react { width: 80%; }
-    .hr-htmlcss { width: 70%; }
 
     .about-achievements{
         justify-content: space-between;
@@ -190,5 +190,81 @@
     .about-achievement p{
         text-align: center;
         font-size: 12px;
+    }
+}
+
+/* ------------------------ RESPONSIVENESS - to Max 1400px ------------------------ */
+@media(min-width:769px) and (max-width: 1400px){
+    .about{
+        gap: 80px;
+        margin: 50px 70px;
+        align-items: center;
+    }
+
+    .about-title {
+        align-items: center;
+        justify-content: center;
+    }
+    .about-title h1 {
+        font-size: 70px;
+        padding: 0;
+        text-align: center;
+    }
+    .about-title img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+    }
+
+    .about-sections {
+        flex-direction: column;
+    }
+
+    .about-left{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+    .about-left img{
+        display: flex;
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+    }
+
+    .about-para{
+        font-size: 19px;
+        line-height: 32px;
+    }
+
+    .about-skill {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .about-skill p {
+        font-size: 16px;
+        text-align: left;
+        width: 100%;
+    }
+    .about-skill hr {
+        height: 7px;
+    }
+
+    .about-achievements{
+        justify-content: space-between;
+    }
+    .about-achievement{
+        gap: 10px;
+    }
+    .about-achievement h1{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .about-achievement p{
+        text-align: center;
+        font-size: 16px;
     }
 }
