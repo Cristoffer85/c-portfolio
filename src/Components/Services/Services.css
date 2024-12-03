@@ -90,7 +90,8 @@
     margin-right: 10px;
 }
 
-/* ------------------------ RESPONSIVENESS - to Max 768px ------------------------ */
+/* ------------------------ RESPONSIVENESS ------------------------ */
+/* ------------------------ to Max 768px ------------------------ */
 @media(max-width: 768px){
     .services-title {
         align-items: center;
@@ -129,7 +130,7 @@
     }
 }
 
-/* ------------------------ RESPONSIVENESS - between 769 and 1400px ------------------------ */
+/* ------------------------ between 769 and 1400px ------------------------ */
 @media(min-width:769px) and (max-width: 1400px){
 
     .services-title {

@@ -25,7 +25,7 @@ const Backend = () => {
         <p>Below you can view some of my accomplished and mastered (well, atleast some) skills:</p>
         
         <ul className="dotted-list">
-          <li>API (Restful)</li>
+          <li>API (RESTful)</li>
           <li>Databases - Relational and Documental</li>
           <li>Basic Architecture - UML and Scalability, SOLID Design principles</li>
           <li>Quality - Unittesting with JUnit among others</li>

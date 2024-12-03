@@ -117,7 +117,8 @@
     transition: 0.5s;
 }
 
-/* ------------- RESPONSIVENESS - to max 768px ------------- */
+/* ------------------------ RESPONSIVENESS ------------------------ */
+/* ------------------------ to Max 768px ------------------------ */
 @media(max-width: 768px){
     .about{
         gap: 80px;
@@ -193,7 +194,7 @@
     }
 }
 
-/* ------------------------ RESPONSIVENESS - to Max 1400px ------------------------ */
+/* ------------------------ between 769 and 1400px ------------------------ */
 @media(min-width:769px) and (max-width: 1400px){
     .about{
         gap: 80px;

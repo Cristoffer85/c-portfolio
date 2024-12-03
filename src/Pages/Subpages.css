@@ -58,7 +58,7 @@ a:hover {
   padding-left: 20px; 
   margin-bottom: 10px; 
   font-size: 1.1em; 
-  color: #797777; 
+  color: #fbff0075; 
 }
 .dotted-list li::before {
   content: '•';
@@ -73,6 +73,7 @@ a:hover {
 }
 
 /* ------------------ RESPONSIVENESS ------------------ */
+
 @media (min-width: 769px) {
   .subpage-container {
     display: flex;

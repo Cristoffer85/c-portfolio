@@ -38,7 +38,8 @@
 * Sub-sidor (Read more, Länkar etc) kontrollera innehåll alla skärmstorlekar. Centrering, flex och align kanske glömt.
 * Buttons - inuti centrera text + kolumnjustering
 * Portfolio Page - what happens after clicking the Show more button on MyWork page
-
+* 3 BREAKPOINTS max768px, 769px-1400px, Default implemented and working. Full responsivity achieved least from first test.
+* Uppdatera .ico i browsertabben till nya logo
 
 
 
@@ -51,5 +52,7 @@ SITE DEPLOYED! :
 co-po.netlify.app
 
 * Latest version 2024-11-17 - fully responsive and looking good up to 768px and desktop, next to alter content between 769 and 1200px
+
+* Latest version 2024-12-03 - responsivity on all screen sizes (from view in devtools atleast) achieved.
 -----------------------------------------------------------------
 
