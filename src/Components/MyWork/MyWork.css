@@ -40,10 +40,11 @@
     height: 280px;
     transition: 0.3s;
     cursor: pointer;
+    border: 4px solid transparent;
 }
 .mywork-container img:hover{
     transform: scale(1.10);
-    border: 4px solid #ff00ff;
+    border: 4px solid #1900ff;
     border-radius: 19px;
     transition: 0.3s;
 }
