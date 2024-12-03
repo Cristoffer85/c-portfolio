@@ -40,6 +40,7 @@
 * Portfolio Page - what happens after clicking the Show more button on MyWork page
 * 3 BREAKPOINTS max768px, 769px-1400px, Default implemented and working. Full responsivity achieved least from first test.
 * Uppdatera .ico i browsertabben till nya logo
+* My Latest Work    - Imgs, klickbar med länk till relaterat innehåll
 
 
 
