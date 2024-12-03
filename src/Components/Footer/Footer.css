@@ -69,7 +69,7 @@
 
 /**/
 
-/* ------------------------ RESPONSIVENESS ------------------------ */
+/* ------------------------ RESPONSIVENESS - to max 768px ------------------------ */
 @media(max-width:768px){
     .footer{
         margin: 50px 70px;
@@ -84,5 +84,4 @@
         margin-bottom: 50px;
     }
 }
-
 
