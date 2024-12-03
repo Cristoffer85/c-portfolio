@@ -72,6 +72,10 @@ a:hover {
   color: #e7e5e5;
 }
 
+.tech{
+  color: #fbff00d3; 
+}
+
 /* ------------------ RESPONSIVENESS ------------------ */
 
 @media (min-width: 769px) {

@@ -7,34 +7,40 @@ import project6_img from '../assets/LateraRaceTracer.png'
 
 const mywork_data = [
     {
-        w_no:1,
-        w_name:"ByteBook (C#.NET & React)",
-        w_img:project1_img
+        w_no: 1,
+        w_name: "ByteBook (C# .NET, React)",
+        w_img: project1_img,
+        id: "ByteBook"
     },
     {
-        w_no:2,
-        w_name:"Flakeville (Java & React)",
-        w_img:project2_img
+        w_no: 1,
+        w_name: "FlakeVille (Java, React, MongoDB, Azure)",
+        w_img: project2_img,
+        id: "FlakeVille"
     },
     {
         w_no:3,
-        w_name:"This page (React)",
-        w_img:project3_img
+        w_name:"Portfolio (React -Vite, Netlify)",
+        w_img:project3_img,
+        id: "CO"
     },
     {
         w_no:4,
-        w_name:"HoneyComb Odyssey (Java)",
-        w_img:project4_img
+        w_name:"HoneyComb Odyssey (Java -Swing",
+        w_img:project4_img,
+        id: "HoneyComb-Odyssey"
     },
     {
-        w_no:5,
-        w_name:"Logo design (GIMP)",
-        w_img:project5_img
+        w_no: 5,
+        w_name: "Logo design (GIMP)",
+        w_img: project5_img,
+        id: "Logo-design-GIMP"
     },
     {
-        w_no:6,
-        w_name:"Latera Race Tracer App (Python)",
-        w_img:project6_img
+        w_no: 6,
+        w_name: "Latera Race Tracer App (Python)",
+        w_img: project6_img,
+        id: "Latera-Race-Tracer"
     },
 ]
  
