@@ -100,4 +100,11 @@
         gap: 20px;
     }
 }
+
+/* ------------------------ RESPONSIVENESS - to Max 1400px ------------------------ */
+@media(min-width:769px) and (max-width: 1400px){
+    .nav-menu {
+        margin-left: 30px;
+    }
+}
   
