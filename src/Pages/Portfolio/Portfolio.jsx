@@ -50,37 +50,37 @@ const Portfolio = () => {
         <h3 id="ByteBook">ByteBook</h3>
         <p>A social media application for developers. Helping solve problems and just connect.</p>
         <img src={ByteBook} alt="" title="ByteBook"/>
-        <h4 className="tech">TECHNOLOGIES USED: C# .NET(8), React</h4>
+        <h4 className="tech-knowledge">TECHNOLOGIES USED: C# .NET(8), React</h4>
         <hr></hr>
 
         <h3 id="FlakeVille">Flakeville</h3>
         <p>A ski resort web application for both owners, employees and users. complete with IAM security and webshop.</p>
         <img src={Flakeville} alt="" title="Flakeville"/>
-        <h4 className="tech">TECHNOLOGIES USED: Java (Spring Boot), React, MongoDB, Azure</h4>
+        <h4 className="tech-knowledge">TECHNOLOGIES USED: Java (Spring Boot), React, MongoDB, Azure</h4>
         <hr></hr>
 
         <h3 id="CO">CO</h3>
         <p>This portfolio web application. Built completely as a pure frontend application.</p>
         <img src={C} alt="" title="CO"/>
-        <h4 className="tech">TECHNOLOGIES USED: React (Vite), Netlify</h4>
+        <h4 className="tech-knowledge">TECHNOLOGIES USED: React (Vite), Netlify</h4>
         <hr></hr>
 
         <h3 id="HoneyComb-Odyssey">HoneyComb Odyssey</h3>
         <p>A 2D RPG game buit purely in Java Swing. The first complete game i finished during private time during the first year of education.</p>
         <img src={HoneyCombOdyssey} alt="" title="HoneyComb Odyssey"/>
-        <h4 className="tech">TECHNOLOGIES USED: Java (Swing)</h4>
+        <h4 className="tech-knowledge">TECHNOLOGIES USED: Java (Swing)</h4>
         <hr></hr>
 
         <h3 id="Logo-design-GIMP">Logo Design</h3>
         <p>Designing Various Logo:s and content in GIMP.</p>
         <img src={Logodesign} alt="" title="HoneyComb Odyssey"/>
-        <h4 className="tech">TECHNOLOGIES USED: GIMP</h4>
+        <h4 className="tech-knowledge">TECHNOLOGIES USED: GIMP</h4>
         <hr></hr>
 
         <h3 id="Latera-Race-Tracer">Latera Race Tracer</h3>
         <p>A desktop application for timing competitive RC-racing cars on a track with help of transponders and sensors. Built completely in Python and exciting project.</p>
         <img src={LateraRaceTracer} alt="" title="Latera Race Tracer"/>
-        <h4 className="tech">TECHNOLOGIES USED: Python (Kivy)</h4>
+        <h4 className="tech-knowledge">TECHNOLOGIES USED: Python (Kivy)</h4>
         <hr></hr>
 
         <h4>Sample of Projects without a screenshot as of this moment, listed below:</h4>
