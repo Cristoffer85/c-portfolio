@@ -93,7 +93,7 @@ const Contact = () => {
                 </form>
             </div>
             <div className="contact-bottom-image">
-                <img src={Ghostbuster} alt="Ghostbuster 3D-print+sewing" title="Yes, i 3D-print and sew just a little bit too!"/>
+                <img src={Ghostbuster} alt="Ghostbuster 3D-print+sewing" title="I aint afraid of no bugs."/>
             </div>
         </div>
     );

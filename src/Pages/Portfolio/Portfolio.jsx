@@ -36,54 +36,53 @@ const Portfolio = () => {
       <img src={x} alt="Back" className="back-icon" onClick={handleBackClick} />
       <div className="content-grid">
         <h1>Portfolio</h1>
-
+        <p>This is my portfolio page, where you above can view a small screenshot of the repository mainpage on Github and also a link to it.</p>
         <img src={Githubrepomain} alt="" />
 
         <div className="contact-detail contact-detail-link">
             <FaGithub /> <a href="https://github.com/Cristoffer85" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
-
-        <p>This is my portfolio page, where you above can view a small screenshot of the repository mainpage on Github and also a link to it.</p>
-        <h3>Listed below here are the different projects i have been working on for the last 2+ years:</h3>
+        
+        <h3>Listed below are different projects i have been working on for the last 2+ years:</h3>
         <hr></hr>
 
         <h3 id="ByteBook">ByteBook</h3>
         <p>A social media application for developers. Helping solve problems and just connect.</p>
         <img src={ByteBook} alt="" title="ByteBook"/>
-        <h4 className="tech-knowledge">TECHNOLOGIES USED: C# .NET(8), React</h4>
+        <h2 className="tech-knowledge">TECHNOLOGIES USED: C# .NET(8), React</h2>
         <hr></hr>
 
         <h3 id="FlakeVille">Flakeville</h3>
         <p>A ski resort web application for both owners, employees and users. complete with IAM security and webshop.</p>
         <img src={Flakeville} alt="" title="Flakeville"/>
-        <h4 className="tech-knowledge">TECHNOLOGIES USED: Java (Spring Boot), React, MongoDB, Azure</h4>
+        <h2 className="tech-knowledge">TECHNOLOGIES USED: Java (Spring Boot), React, MongoDB, Azure</h2>
         <hr></hr>
 
         <h3 id="CO">CO</h3>
         <p>This portfolio web application. Built completely as a pure frontend application.</p>
         <img src={C} alt="" title="CO"/>
-        <h4 className="tech-knowledge">TECHNOLOGIES USED: React (Vite), Netlify</h4>
+        <h2 className="tech-knowledge">TECHNOLOGIES USED: React (Vite), Netlify</h2>
         <hr></hr>
 
         <h3 id="HoneyComb-Odyssey">HoneyComb Odyssey</h3>
         <p>A 2D RPG game buit purely in Java Swing. The first complete game i finished during private time during the first year of education.</p>
         <img src={HoneyCombOdyssey} alt="" title="HoneyComb Odyssey"/>
-        <h4 className="tech-knowledge">TECHNOLOGIES USED: Java (Swing)</h4>
+        <h2 className="tech-knowledge">TECHNOLOGIES USED: Java (Swing)</h2>
         <hr></hr>
 
         <h3 id="Logo-design-GIMP">Logo Design</h3>
         <p>Designing Various Logo:s and content in GIMP.</p>
         <img src={Logodesign} alt="" title="HoneyComb Odyssey"/>
-        <h4 className="tech-knowledge">TECHNOLOGIES USED: GIMP</h4>
+        <h2 className="tech-knowledge">TECHNOLOGIES USED: GIMP</h2>
         <hr></hr>
 
         <h3 id="Latera-Race-Tracer">Latera Race Tracer</h3>
         <p>A desktop application for timing competitive RC-racing cars on a track with help of transponders and sensors. Built completely in Python and exciting project.</p>
         <img src={LateraRaceTracer} alt="" title="Latera Race Tracer"/>
-        <h4 className="tech-knowledge">TECHNOLOGIES USED: Python (Kivy)</h4>
+        <h2 className="tech-knowledge">TECHNOLOGIES USED: Python (Kivy)</h2>
         <hr></hr>
 
-        <h4>Sample of Projects without a screenshot as of this moment, listed below:</h4>
+        <h4 className="full-span">Sample of Projects without a screenshot as of this moment, listed below:</h4>
         <ul className="dotted-list">
           <li>
             <h3 id="Who slept the longest on christmas?">Who slept the longest on christmas?</h3>
