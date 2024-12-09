@@ -4,8 +4,15 @@ import project3_img from '../assets/C.png'
 import project4_img from '../assets/HoneyCombOdyssey.png'
 import project5_img from '../assets/Logodesign.png'
 import project6_img from '../assets/LateraRaceTracer.png'
+import project7_img from '../assets/SantaSelector.png'
 
 const mywork_data = [
+    {
+        w_no:3,
+        w_name:"Portfolio (React -Vite, Netlify)",
+        w_img:project3_img,
+        id: "CO"
+    },
     {
         w_no: 1,
         w_name: "ByteBook (C# .NET, React)",
@@ -13,16 +20,10 @@ const mywork_data = [
         id: "ByteBook"
     },
     {
-        w_no: 1,
-        w_name: "FlakeVille (Java, React, MongoDB, Azure)",
-        w_img: project2_img,
-        id: "FlakeVille"
-    },
-    {
-        w_no:3,
-        w_name:"Portfolio (React -Vite, Netlify)",
-        w_img:project3_img,
-        id: "CO"
+        w_no: 2,
+        w_name: "Santa Selector (React, TypeScript)",
+        w_img: project7_img,
+        id: "Santa-Selector"
     },
     {
         w_no:4,

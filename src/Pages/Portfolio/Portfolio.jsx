@@ -10,6 +10,7 @@ import C from '../../assets/C.png'
 import HoneyCombOdyssey from '../../assets/HoneyCombOdyssey.png'
 import Logodesign from '../../assets/Logodesign.png'
 import LateraRaceTracer from '../../assets/LateraRaceTracer.png'
+import SantaSelector from '../../assets/SantaSelector.png'
 
 const Portfolio = () => {
   const navigate = useNavigate();
@@ -46,22 +47,28 @@ const Portfolio = () => {
         <h3>Listed below are different projects i have been working on for the last 2+ years:</h3>
         <hr></hr>
 
+        <h3 id="CO">CO</h3>
+        <p>This portfolio web application. Built completely as a pure frontend application.</p>
+        <img src={C} alt="" title="CO"/>
+        <h2 className="tech-knowledge">TECHNOLOGIES USED: React (Vite), JavaScript, Netlify</h2>
+        <hr></hr>
+
+        <h3 id="Santa-Selector">Santa Selector</h3>
+        <p>A festive in-between development of a duet mode Santa Selector app. A Simple and Tournament modestyle lets you decide who will at last be this Christmas Santa.</p>
+        <img src={SantaSelector} alt="" title="CO"/>
+        <h2 className="tech-knowledge">TECHNOLOGIES USED: React, TypeScript, Netlify</h2>
+        <hr></hr>
+
         <h3 id="ByteBook">ByteBook</h3>
         <p>A social media application for developers. Helping solve problems and just connect.</p>
         <img src={ByteBook} alt="" title="ByteBook"/>
-        <h2 className="tech-knowledge">TECHNOLOGIES USED: C# .NET(8), React</h2>
+        <h2 className="tech-knowledge">TECHNOLOGIES USED: C# .NET(8), React, TypeScript</h2>
         <hr></hr>
 
         <h3 id="FlakeVille">Flakeville</h3>
         <p>A ski resort web application for both owners, employees and users. complete with IAM security and webshop.</p>
         <img src={Flakeville} alt="" title="Flakeville"/>
         <h2 className="tech-knowledge">TECHNOLOGIES USED: Java (Spring Boot), React, MongoDB, Azure</h2>
-        <hr></hr>
-
-        <h3 id="CO">CO</h3>
-        <p>This portfolio web application. Built completely as a pure frontend application.</p>
-        <img src={C} alt="" title="CO"/>
-        <h2 className="tech-knowledge">TECHNOLOGIES USED: React (Vite), Netlify</h2>
         <hr></hr>
 
         <h3 id="HoneyComb-Odyssey">HoneyComb Odyssey</h3>
