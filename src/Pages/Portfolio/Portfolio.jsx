@@ -43,9 +43,10 @@ const Portfolio = () => {
     <div className="subpage-container">
       <img src={x} alt="Back" className="back-icon" onClick={handleBackClick} />
       <div className="content-grid">
+
         <h1>Portfolio</h1>
         <p className="both-columns">My portfolio page - where you can view a screenshot from the repository mainpage on Github, and also a link to it.</p>
-        <img src={Githubrepomain} alt="" />
+        <img img className="left-column" src={Githubrepomain} alt="" />
 
         <div className="right-column link-container">
             <FaGithub /> <a href="https://github.com/Cristoffer85" target="_blank" rel="noopener noreferrer">GITHUB MAIN</a>
@@ -58,12 +59,12 @@ const Portfolio = () => {
           <h3 id="CO" className="left-column">CO</h3>
           <p className="both-columns">This portfolio web application. Built completely as a pure frontend application.</p>
           <img className="left-column" src={C} alt="" title="CO"/>
-          <div className="right-column link-container">
-            <h2>TECHNOLOGIES USED:</h2>
-            <p>React (Vite), JavaScript, Netlify</p>
-                <br /><br /><p>* Github repo is private, but feel free to ask for access through the contact form.</p><br />
-                <IoHomeOutline /> <a href="https://co-po.netlify.app/" target="_blank" rel="noopener noreferrer">Co Portfolio</a>
-              </div>
+            <div className="right-column link-container">
+              <h2>TECHNOLOGIES USED:</h2>
+              <p>React (Vite), JavaScript, Netlify</p>
+                  <br /><br /><p>* Github repo is private, but feel free to ask for access through the contact form.</p><br />
+                  <IoHomeOutline /> <a href="https://co-po.netlify.app/" target="_blank" rel="noopener noreferrer">Co Portfolio</a>
+            </div>
           <hr className="both-columns"></hr>
 
           <h3 id="ByteBook" className="left-column">ByteBook</h3>
