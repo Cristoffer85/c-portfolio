@@ -59,7 +59,7 @@ const Portfolio = () => {
           <div className="right-column link-container">
             <h2>TECHNOLOGIES USED:</h2>
             <p>React (Vite), JavaScript, Netlify</p>
-                <br /><br /><p>Github repo is private, but feel free to ask for access through the contact form.</p><br />
+                <br /><br /><p>* Github repo is private, but feel free to ask for access through the contact form.</p><br />
                 <IoHomeOutline /> <a href="https://co-po.netlify.app/" target="_blank" rel="noopener noreferrer">Co Portfolio</a>
               </div>
           <hr className="both-columns"></hr>
@@ -70,7 +70,7 @@ const Portfolio = () => {
             <div className="right-column link-container">
             <h2>TECHNOLOGIES USED:</h2>
               <p>C# .NET(8), React, TypeScript</p>
-              <br /><br /><p>Github repo is private, but feel free to ask for access through the contact form.</p><br />
+              <br /><br /><p>* Github repo is private, but feel free to ask for access through the contact form.</p><br />
               <p>Undeployed - Currently in development</p>
             </div>
           <hr className="both-columns"></hr>
@@ -81,7 +81,7 @@ const Portfolio = () => {
             <div className="right-column link-container">
               <h2>TECHNOLOGIES USED:</h2>
               <p>React, TypeScript, Netlify</p>
-              <br /><br /><p>Github repo is private, but feel free to ask for access through the contact form.</p><br />
+              <br /><br /><p>* Github repo is private, but feel free to ask for access through the contact form.</p><br />
               <IoHomeOutline /> <a href="https://santaselector.netlify.app/" target="_blank" rel="noopener noreferrer">Santa Selector</a>
             </div>
           <hr className="both-columns"></hr>
@@ -104,7 +104,7 @@ const Portfolio = () => {
             <div className="right-column link-container">
               <h2>TECHNOLOGIES USED: </h2>
               <p>Java (Swing)</p>
-              <br /><br /><p>Github repo is private, but feel free to ask for access through the contact form.</p>
+              <br /><br /><p>* Github repo is private, but feel free to ask for access through the contact form.</p>
             </div>
           <hr className="both-columns"></hr>
 
@@ -144,7 +144,7 @@ const Portfolio = () => {
             <div className="right-column link-container">
               <h2>TECHNOLOGIES USED:</h2>
               <p>C++, SFML</p>
-              <br /><p>Github repo is private, but feel free to ask for access through the contact form.</p>
+              <br /><p>* Github repo is private, but feel free to ask for access through the contact form.</p>
             </div>
           <hr className="both-columns"></hr>
 
