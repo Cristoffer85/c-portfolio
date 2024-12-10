@@ -1,0 +1,8 @@
+/* ------------------ BACK ICON ------------------ */
+.back-icon {
+    position: absolute;
+    top: -20px;
+    right: 0px;
+    padding: 10px;
+    cursor: pointer;
+  }

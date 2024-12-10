@@ -1,8 +1,13 @@
 BREAKPOINT 1 - [max-width 768px]
 ----------------------------------
 Prio fix:
-* Länkar till github repo när trycker på olika unika projekt i Portfolio
-* Lägg till senaste projektet med Santa Selector och High-lighta det
+* Fixa subpages (CSS) till samtliga subpages:
+    - Backend
+    - Friend
+    - Frontend
+    - Fullstack
+    - GameDev
+    - GraphDesign
 
 
 

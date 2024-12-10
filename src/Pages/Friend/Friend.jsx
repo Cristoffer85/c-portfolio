@@ -1,6 +1,9 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import '../../Pages/Subpages.css';
+
+import '../Friend/Friend.css';
+import '../Global.css';
+
 import x from '../../assets/x.ico';
 import profile_img from '../../assets/profile_img.png';
 

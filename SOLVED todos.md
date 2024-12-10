@@ -41,6 +41,8 @@
 * 3 BREAKPOINTS max768px, 769px-1400px, Default implemented and working. Full responsivity achieved least from first test.
 * Uppdatera .ico i browsertabben till nya logo
 * My Latest Work    - Imgs, klickbar med länk till relaterat innehåll
+* Länkar till github repo när trycker på olika unika projekt i Portfolio
+* Lägg till senaste projektet med Santa Selector och High-lighta det
 
 
 

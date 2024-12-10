@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
+
 import '../Portfolio/Portfolio.css';
+import '../Global.css';
 
 import x from '../../assets/x.ico';
 import Githubrepomain from '../../assets/Githubrepomain.png';

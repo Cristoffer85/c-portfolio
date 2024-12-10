@@ -1,0 +1,44 @@
+.resume-subpage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 80px 60px;
+  padding: 20px;
+  position: relative;
+}
+
+/* ------------------ CONTENT GRID ------------------ */
+.resume-content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.resume-content-grid .left-column {
+  grid-column: 1 / 2;
+  margin-right: 10%;
+}
+
+.resume-content-grid .right-column {
+  grid-column: 2 / 3;
+}
+
+.resume-content-grid .both-columns {
+  grid-column: span 2;
+}
+
+/* ------------------ RESPONSIVENESS ------------------ */
+/* ------------------------ to Max 768px ------------------------ */
+@media(max-width: 768px){
+  .resume-content-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

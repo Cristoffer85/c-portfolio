@@ -1,6 +1,9 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import '../../Pages/Subpages.css';
+
+import '../GameDev/GameDev.css';
+import '../Global.css';
+
 import x from '../../assets/x.ico';
 import DesignSpritesheet from '../../assets/DesignSpritesheet.png';
 import HoneyCombOdyssey from '../../assets/HoneyCombOdyssey.png';

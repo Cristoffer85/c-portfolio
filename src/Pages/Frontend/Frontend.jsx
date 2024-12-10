@@ -1,6 +1,9 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import '../../Pages/Subpages.css';
+
+import '../Frontend/Frontend.css';
+import '../Global.css';
+
 import x from '../../assets/x.ico';
 
 const Frontend = () => {
