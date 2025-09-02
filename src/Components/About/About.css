@@ -81,10 +81,11 @@
 
 /* ------------- Skills - easier to change percentage here for all responsive screen sizes at once, neat huh? :) ------------- */
 .hr-java { width: 90%; }
+.hr-aws { width: 80%; }
 .hr-csharp { width: 60%; }
 .hr-python { width: 40%; }
 .hr-cpp { width: 20%; }
-.hr-react { width: 80%; }
+.hr-angular-react { width: 80%; }
 .hr-htmlcss { width: 70%; }
 
 /* ------------- ABOUT ACHIEVEMENTS ------------- */
