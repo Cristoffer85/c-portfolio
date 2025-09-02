@@ -26,9 +26,9 @@ const Services = () => {
     },
     {
         s_no: "04",
-        s_name: "Graphics Design",
-        s_desc: "Believe it or not my first major orientation here in life starting at just 6 years old was actually aesthetical. So I´m actually not terrible at this as well.",
-        link: "/Pages/GraphDesign/GraphDesign"
+        s_name: "Cloud",
+        s_desc: "As certified in the AWS Cloud I can help you with cloud solutions and architecture.",
+        link: "/Pages/Cloud/Cloud"
     },
     {
         s_no: "05",
@@ -38,9 +38,9 @@ const Services = () => {
     },
     {
         s_no: "06",
-        s_name: "Be a real good pal!",
-        s_desc: "Or if you just want a real good friend here you got me! Connect with me (in the near future you can also hit me up on ByteBook! - Ill announce when its up) The only requirement is that you become my good pal too.",
-        link: "/Pages/Friend/Friend"
+        s_name: "Graphics Design",
+        s_desc: "Believe it or not my first major orientation here in life starting at just 6 years old was actually aesthetical. So I´m actually not terrible at this as well.",
+        link: "/Pages/GraphDesign/GraphDesign"
     },
   ];
 

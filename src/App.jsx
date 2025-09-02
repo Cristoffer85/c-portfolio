@@ -12,7 +12,7 @@ import Frontend from './Pages/Frontend/Frontend';
 import GraphDesign from './Pages/GraphDesign/GraphDesign';
 import Fullstack from './Pages/Fullstack/Fullstack';
 import GameDev from './Pages/GameDev/GameDev';
-import Friend from './Pages/Friend/Friend';
+import Cloud from './Pages/Cloud/Cloud';
 import Portfolio from './Pages/Portfolio/Portfolio';
 import Resume from './Pages/Resume/Resume';
 
@@ -55,7 +55,7 @@ const App = () => {
         <Route path="/Pages/Fullstack/Fullstack" element={<Fullstack />} />
         <Route path="/Pages/GraphDesign/GraphDesign" element={<GraphDesign />} />
         <Route path="/Pages/GameDev/GameDev" element={<GameDev />} />
-        <Route path="/Pages/Friend/Friend" element={<Friend />} />
+        <Route path="/Pages/Cloud/Cloud" element={<Cloud />} />
         <Route path="/Pages/Portfolio/Portfolio" element={<Portfolio />} />
         <Route path="/Pages/Resume/Resume" element={<Resume />} />
       </Routes>
