@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 
 import '../Portfolio/Portfolio.css';
-import '../Global.css';
+import '../Page-Global.css';
 
 import x from '../../assets/x.ico';
 import Githubrepomain from '../../assets/Githubrepomain.png';
@@ -45,7 +45,7 @@ const Portfolio = () => {
       <div className="content-grid">
 
         <h1>Portfolio</h1>
-        <p className="both-columns">My portfolio page - where you can view a screenshot from the repository mainpage on Github, and also a link to it.</p>
+        <p className="both-columns">My portfolio page - Screenshot from repository page on Github with link beside it.</p>
         <img img className="left-column" src={Githubrepomain} alt="" />
 
         <div className="right-column link-container">

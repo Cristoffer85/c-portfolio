@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import '../Backend/Backend.css';
-import '../Global.css';
+import '../Page-Global.css';
 
 import x from '../../assets/x.ico';
 
@@ -25,7 +24,8 @@ const Backend = () => {
 
         <p>Backend development is the programming that powers a website (Or other applications, also called server) </p>
         <p>It focuses on logic, general architecture and storing and fetching from databases. To shorten it <span>TONS</span> of CRUD (Create-Read-Update-Delete) is used, and also alot of endpoint logic combined with its MVC logic with Services-Repositories-Model classes among others and remembering what this specific database needed for its connection.</p> 
-        <p>Below you can view some of my accomplished and mastered (well, atleast some) skills:</p>
+        <p>Below a pick of some skills:</p>
+        <p>----------------------------</p>
         
         <ul className="dotted-list">
           <li>API (RESTful)</li>

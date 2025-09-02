@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
         <hr />
         <div className="footer-bottom">
-            <p className="footer-bottom-left">© Cristoffer Östberg 2024. All rights reserved.</p>
+            <p className="footer-bottom-left">© Cristoffer Östberg 2025. All rights reserved.</p>
             <div className="footer-bottom-right">
               {/* 
               <p>Terms of Service</p>

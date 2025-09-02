@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import '../Fullstack/Fullstack.css';
-import '../Global.css';
+import '../Page-Global.css';
 
 import x from '../../assets/x.ico';
 
@@ -24,8 +23,8 @@ const Fullstack = () => {
         <h1>Fullstack Development</h1>
 
         <p>Fullstack development is basically a combination of both frontend and backend development. Combine these two together and you have a fully functional application.</p>
-        <p>This in total means = Safe-storage for your information hidden in the background, while you have a nice and easy-to-use interface for you as a human (except if youre maybe a robot..? *suspicious eyes*) to interact with.</p>
-        <p>Kindly view both Backend development and Frontend development pages in the Services section for more detailed info about this.</p>
+        <p>This in total means = Safestorage for your information hidden in background while you have a nice and easy-to-use interface for you as a human (except if youre maybe a robot..?) for interaction.</p>
+        <p>For detailed information on each perspective view backend and Frontend development pages in the Services section.</p>
 
       </div>
     </div>

@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import '../Frontend/Frontend.css';
-import '../Global.css';
+import '../Page-Global.css';
 
 import x from '../../assets/x.ico';
 
@@ -25,7 +24,8 @@ const Frontend = () => {
 
         <p>Frontend development is the part of webdevelopment (or an application) that is responsible for mostly the user interface and user experience of a website.</p>
         <p>It is the part of a website or application that a user interacts with, and is usually built with combined technologies like HTML, CSS and JavaScript to form the body (HTML = skeleton, Javascript = Brain, CSS = Skin) The frontend is the part that the user interacts with the backend (server).</p>
-        <p>Below you can view some of my skills:</p>
+        <p>Below a pick of some skills:</p>
+        <p>----------------------------</p>
 
         <ul className="dotted-list">
           <li>API-connection (communicating with an endpoint from an Url)</li>

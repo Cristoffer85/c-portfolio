@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import '../Resume/Resume.css';
-import '../Global.css';
+
+import '../Page-Global.css';
+import './Resume.css';
+
 import x from '../../assets/x.ico';
 
 const Resume = () => {

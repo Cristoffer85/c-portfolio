@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import '../GameDev/GameDev.css';
-import '../Global.css';
+import '../Page-Global.css';
 
 import x from '../../assets/x.ico';
 import DesignSpritesheet from '../../assets/DesignSpritesheet.png';
